@@ -43,10 +43,10 @@
             </div> 
         </div>
 
-        <div class="uk-container-expand uk-grid-match uk-padding" uk-grid uk-grid uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 500; repeat: true" uk-column-1-2>
+        <div class="uk-container-expand uk-grid-match uk-padding" uk-grid uk-column-1-2>
             <div class="uk-child-width-expand@s" uk-grid>
                 <div class="uk-grid-item-match">
-                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                         <img class="uk-align-center uk-border-pill" src="Images/me.jpg" style="width: 50%">
                         <div class="uk-text-center">
                             <a class="uk-padding" href="https://www.behance.net/EMILYPHO/"><span uk-icon="icon: behance"></span></a>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                  </div>
-                <div>
+                <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <h3>Researcher. Designer. Coder.</h3>
                     <p>
                         Hi, I'm Emily. I'm a Information Technology student, with a concentration in Web Development and Multimedia, at George Mason University.
@@ -81,7 +81,7 @@
         
         <div class="uk-section" style="background-color: #33312E;">
             <div class="uk-container">
-                <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+                <div class="uk-grid-divider uk-child-width-expand@s" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 400; repeat: true">
                     <div>
                         <h3 class="uk-text-primary uk-text-lead">UX Researcher</h3>
                         <div class="uk-light">
@@ -157,25 +157,25 @@
                 <div class="uk-text-emphasis">
                      <p class="uk-h1 uk-text-center">CV</p>
                 </div>
-                <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+                <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center uk-grid-divider" uk-grid>
                     <div>
-                        <div class="uk-tile uk-tile-default">
-                            <p class="uk-h4">Default</p>
+                        <div class="uk-tile">
+                            <p class="uk-h4">IT Support Technician</p>
                         </div>
                     </div>
                     <div>
-                        <div class="uk-tile uk-tile-muted">
-                            <p class="uk-h4">Muted</p>
+                        <div class="uk-tile">
+                            <p class="uk-h4">Front Desk Office Assistant</p>
                         </div>
                     </div>
                     <div>
-                        <div class="uk-tile uk-tile-primary">
-                            <p class="uk-h4">Primary</p>
+                        <div class="uk-tile">
+                            <p class="uk-h4">Vice President of External Affairs for the Mason Machine Learning Club</p>
                         </div>
                     </div>
                     <div>
-                        <div class="uk-tile uk-tile-default">
-                            <p class="uk-h4">Secondary</p>
+                        <div class="uk-tile">
+                            <p class="uk-h4">Front-End Web Developer</p>
                         </div>
                     </div>
                 </div>
@@ -238,9 +238,9 @@
                 </p>
             </div>
         </div>
-        <!--<a class="uk-button uk-button-primary" href="#banner" uk-scroll>Scroll up</a>
+        <a class="uk-button uk-button-default uk-border-circle" href="#banner" uk-scroll><span uk-icon="icon: triangle-up"></span></a>
         <script>
             UIkit.scroll("#banner", options);
-        </script>-->
+        </script>
     </body>
 </html>
