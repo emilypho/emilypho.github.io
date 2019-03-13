@@ -28,7 +28,7 @@
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Resources</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a class="uk-button uk-button-large" href="#contact-modal" uk-toggle>Contact Me</a></li>
                     </ul>
 
                 </div>
@@ -61,7 +61,7 @@
                         Hi, I'm Emily. I'm a Information Technology student, with a concentration in Web Development and Multimedia, at George Mason University.
                     </p>
                     <p>I'm in my <b>junior</b> year and I currently hold <b>three positions</b> at George Mason University:</p>
-                    <ul>
+                    <ul class="uk-list uk-list-bullet">
                         <li>I'm a <b>Front Desk Office Assistant</b> for the Elementary and Secondary Education Program</li>
                         <li>I'm an <b>IT Support Technician</b> for the IT Support Center</li>
                         <li>and I'm also the <b>Vice President of External Affairs</b> for the Mason Machine Learning Club.</li>
@@ -69,7 +69,7 @@
                     <p>
                         In my free time I...
                     </p>
-                    <ul>
+                    <ul class="uk-list uk-list-bullet">
                         <li>follow up on UX trends and learn best UX design and research practices. See <a href="resources.html">resources</a>.</li>
                         <li>do research, design, and coding practice. See <a href="projects.html">projects</a> and <a href="gallery.html">gallery</a>.</li>
                         <li>spend time with friends and family</li>
@@ -87,7 +87,7 @@
                         <div class="uk-light">
                             <p class="uk-text-medium">I want to understand the problems, needs, and behaviors of my users.</p>
                             <p>How I research users:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>Qualatitive and Quantitative</li>
                                 <li>A/B Testing</li>
                                 <li>Interviews</li>
@@ -95,7 +95,7 @@
                                 <li>Questionares</li>
                             </ul>
                             <p>Research Tools:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>Typeform</li>
                                 <li>Google Cloud</li>
                                 <li>Mural</li>
@@ -110,13 +110,13 @@
                         <div class="uk-light">
                             <p class="uk-text-medium">I want to ensure that my applications are usable, accessibile, sustainable, and scalable.</p>
                             <p>I enjoy designing:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>Mobile</li>
                                 <li>Web</li>
                                 <li>Logos</li>
                             </ul>
                             <p>Design Tools:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>Pen and Paper</li>
                                 <li>Balsamiq Mockups</li>
                                 <li>Sketch</li>
@@ -133,14 +133,14 @@
                         <div class="uk-light">
                             <p class="uk-text-medium">I like to bring my designs to life and develop clean and simple applications.</p>
                             <p>Languages I use:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>Sass</li>
                             </ul>
                             <p>Development Tools:</p>
-                            <ul>
+                            <ul class="uk-list uk-list-bullet">
                                 <li>Brackets</li>
                                 <li>Github</li>
                                 <li>Bootstrap</li>
@@ -150,6 +150,71 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        
+        <div class="uk-section">
+            <div class="uk-container">
+                <div class="uk-text-emphasis uk-container-expand uk-padding">
+                     <p class="uk-h1 uk-text-center">CV</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="uk-background-fixed uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle uk-background-bottom-center" style="background-image: url(images/sky.jpg);">
+            <div class="uk-text-emphasis uk-container-expand uk-padding">
+                <p class="uk-h1">Education</p>
+                <p>BA - Information Technology, Web Development and Multimedia Concentration</p>
+                <p>George Mason University</p>
+                <p>Graduating May 2020, GPA 3.47</p>
+            </div>
+        </div>
+        
+        <div class="uk-bacground-default uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle">
+            <div class="uk-card uk-card-default uk-width-1-2@m">
+                <div class="uk-card-header">
+                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand uk-text-center">
+                            <p class="uk-h1">Activities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-card-body">
+                    <p>Daily UI | Reading UX Books | Following up on UX trends | Developing Web and Mobile Applications</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="uk-background-default uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle">
+            <div class="uk-text-emphasis uk-container-expand uk-padding uk-text-center">
+                <p uk-margin>
+                    <button class="uk-button uk-button-primary uk-button-large">Download Resume</button>
+                    <a class="uk-button uk-button-default uk-button-large" href="#contact-modal" uk-toggle>Contact Me</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="contact-modal" uk-modal>
+            <div class="uk-modal-dialog uk-margin-auto-vertical">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <div class="uk-modal-header">
+                    <h2 class="uk-modal-title">My Contact Information</h2>
+                </div>
+                <div class="uk-modal-body">
+                    <p><b>Email:</b> emily.pho@gmail.com</p>
+                    <p><b>Phone:</b> 808.256.1118</p>
+                    <p><b>Availablity:</b> Tuesdays and Thursdays after 10am</p>
+                </div>
+                <div class="uk-modal-footer uk-text-right">
+                    <button class="uk-button uk-button-primary uk-modal-close" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="uk-background-default uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle">
+            <div class="uk-text-emphasis uk-container-expand uk-padding uk-text-center">
+                <p uk-margin>
+                  Copyright 2019 © Emily Pho. All rights reserved.
+                </p>
             </div>
         </div>
         <!--<a class="uk-button uk-button-primary" href="#banner" uk-scroll>Scroll up</a>
