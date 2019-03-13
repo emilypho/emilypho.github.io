@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emily Pho</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script><!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+        <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        
+       <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+           <nav class="uk-navbar-container" uk-navbar="dropbar: true;" style="position: relative; z-index: 980;">
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="uk-child-width-1 uk-light" id="banner">
+            <div>
+                <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(Images/banner-bg.png);">
+                    <p class="uk-h1">{ Hi, I'm Emily. }</p>
+                </div>
+            </div> 
+        </div>
+
+        <div class="uk-container-expand uk-grid-match uk-padding" uk-grid uk-grid uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 500; repeat: true" uk-column-1-2>
+            <div class="uk-child-width-expand@s" uk-grid>
+                <div class="uk-grid-item-match">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <img class="uk-align-center uk-border-pill" src="Images/me.jpg" style="width: 50%">
+                        <div class="uk-text-center">
+                            <a class="uk-padding" href="https://www.behance.net/EMILYPHO/"><span uk-icon="icon: behance"></span></a>
+                            <a href="https://github.com/emilypho"><span uk-icon="icon: github-alt"></span></a>
+                            <a class="uk-padding" href="https://www.linkedin.com/in/emilypho/"><span uk-icon="icon: linkedin"></span></a>
+                        </div>
+                    </div>
+                 </div>
+                <div>
+                    <h3>Researcher. Designer. Coder.</h3>
+                    <p>
+                        Hi, I'm Emily. I'm a Information Technology student, with a concentration in Web Development and Multimedia, at George Mason University.
+                    </p>
+                    <p>I'm in my <b>junior</b> year and I currently hold <b>three positions</b> at George Mason University:</p>
+                    <ul>
+                        <li>I'm a <b>Front Desk Office Assistant</b> for the Elementary and Secondary Education Program</li>
+                        <li>I'm an <b>IT Support Technician</b> for the IT Support Center</li>
+                        <li>and I'm also the <b>Vice President of External Affairs</b> for the Mason Machine Learning Club.</li>
+                    </ul>
+                    <p>
+                        In my free time I...
+                    </p>
+                    <ul>
+                        <li>follow up on UX trends and learn best UX design and research practices. See <a href="resources.html">resources</a>.</li>
+                        <li>do research, design, and coding practice. See <a href="projects.html">projects</a> and <a href="gallery.html">gallery</a>.</li>
+                        <li>spend time with friends and family</li>
+                        <li>entertain my Border Collie</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="uk-section" style="background-color: #33312E;">
+            <div class="uk-container">
+                <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+                    <div>
+                        <h3 class="uk-text-primary uk-text-lead">UX Researcher</h3>
+                        <div class="uk-light">
+                            <p class="uk-text-medium">I want to understand the problems, needs, and behaviors of my users.</p>
+                            <p>How I research users:</p>
+                            <ul>
+                                <li>Qualatitive and Quantitative</li>
+                                <li>A/B Testing</li>
+                                <li>Interviews</li>
+                                <li>Surveys</li>
+                                <li>Questionares</li>
+                            </ul>
+                            <p>Research Tools:</p>
+                            <ul>
+                                <li>Typeform</li>
+                                <li>Google Cloud</li>
+                                <li>Mural</li>
+                                <li>Teamviewer</li>
+                                <li>Hotjar</li>
+                                <li>Microsoft Office</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="uk-text-primary uk-text-lead">UX Designer</h3>
+                        <div class="uk-light">
+                            <p class="uk-text-medium">I want to ensure that my applications are usable, accessibile, sustainable, and scalable.</p>
+                            <p>I enjoy designing:</p>
+                            <ul>
+                                <li>Mobile</li>
+                                <li>Web</li>
+                                <li>Logos</li>
+                            </ul>
+                            <p>Design Tools:</p>
+                            <ul>
+                                <li>Pen and Paper</li>
+                                <li>Balsamiq Mockups</li>
+                                <li>Sketch</li>
+                                <li>PhotoShop</li>
+                                <li>Krita</li>
+                                <li>Invision</li>
+                                <li>Figma</li>
+                                <li>Draw.io</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="uk-text-primary uk-text-lead">Front-End Developer</h3>
+                        <div class="uk-light">
+                            <p class="uk-text-medium">I like to bring my designs to life and develop clean and simple applications.</p>
+                            <p>Languages I use:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Sass</li>
+                            </ul>
+                            <p>Development Tools:</p>
+                            <ul>
+                                <li>Brackets</li>
+                                <li>Github</li>
+                                <li>Bootstrap</li>
+                                <li>UIkit</li>
+                                <li>Bulma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<a class="uk-button uk-button-primary" href="#banner" uk-scroll>Scroll up</a>
+        <script>
+            UIkit.scroll("#banner", options);
+        </script>-->
+    </body>
+</html>
